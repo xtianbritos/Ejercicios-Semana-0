@@ -1,6 +1,7 @@
 const crearPalindromo = (cadena: string): string => {
     let array: string[] = cadena.split('');
     array.reverse();
+    array.shift();
     let palindromo: string = cadena.concat(array.join(''));
 
     return palindromo;
