@@ -9,10 +9,10 @@ export class Circulo extends Figura{
     }
 
     calcularArea(): void {
-        console.log(`El área del circulo es ${Math.PI * (this.radio*this.radio)}`);
+        console.log(`El área del circulo es ${(Math.PI*this.radio*this.radio).toFixed(2)}`);
     }
 
     calcularPerimetro(): void {
-        console.log(`El perímetro del circulo es ${2 * (Math.PI * this.radio)}`);
+        console.log(`El perímetro del circulo es ${(2*Math.PI*this.radio).toFixed(2)}`);
     }
 }
