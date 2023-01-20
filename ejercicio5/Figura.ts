@@ -7,6 +7,6 @@ export abstract class Figura implements FiguraGeometrica {
         this.nombre = nombre;
     }
 
-    calcularArea(): void {}
-    calcularPerimetro(): void {}
+    abstract calcularArea(): void
+    abstract calcularPerimetro(): void
 }
