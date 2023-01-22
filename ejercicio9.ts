@@ -11,7 +11,7 @@ const imprimirArbol = (n: number) => {
             estrellas += '*';
         }
 
-        console.log(espacios+estrellas);
+        console.log(espacios+estrellas+espacios);
     }
 
     let base: string = '';
@@ -20,7 +20,7 @@ const imprimirArbol = (n: number) => {
         base += ' ';
     }
 
-    base += '***';
+    base += '***' + base;
     console.log(base);
 }
 
