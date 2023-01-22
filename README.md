@@ -1,4 +1,4 @@
-# Ejercicios-Semana-0
+# Ejercicios Semana 0
 ## 1. Área de un círculo
 Crear una función que calcule el área de un círculo dado su radio. Utiliza la fórmula: A = π * r^2
 ## 2. Potencia
